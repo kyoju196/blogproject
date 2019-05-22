@@ -1,0 +1,15 @@
+body, html{
+    padding:0;
+    margin:0;
+}
+.title{
+    text-align:center;
+}
+.main-contents{
+    text-align:center;
+    padding-top:2em;
+    padding-right:10em;
+    padding-left:10em;
+    padding-bottom:2em;
+}
+
