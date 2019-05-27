@@ -6,7 +6,7 @@ from .models import Blog
 
 def home(request):
     Blog_element = Blog.objects
-    return render(request, 'home.html', {'Blog_element': Blog_element})
+    return render(request, 'home.html', {'Blog_element':Blog_element})
 
 def detail(request,blog_id):
     Blog_detail = get_object_or_404(Blog, pk=blog_id)
